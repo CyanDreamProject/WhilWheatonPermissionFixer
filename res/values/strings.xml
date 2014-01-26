@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WhilWheatonPermissionFixer</string>
+    <string name="scienceproject">Let me show you my science project</string>
 </resources>

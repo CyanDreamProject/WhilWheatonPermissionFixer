@@ -17,7 +17,7 @@ import java.util.List;
 public class MyActivity extends Activity {
     void engage() {
         final ProgressDialog dialog = new ProgressDialog(this);
-        dialog.setTitle("Let me show you my science project");
+        dialog.setTitle(getString(R.string.scienceproject));
         dialog.setIndeterminate(false);
         dialog.setProgress(0);
         dialog.setSecondaryProgress(0);
