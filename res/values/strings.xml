@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">WhilWheatonPermissionFixer</string>
     <string name="scienceproject">Let me show you my science project</string>
+    <string name="fixpermissions">Fix Permissions?</string>
+    <string name="engage">Engage</string>
 </resources>

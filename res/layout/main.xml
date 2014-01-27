@@ -24,12 +24,12 @@
             style="@android:style/TextAppearance.Medium"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Fix Permissions?"
+            android:text="@string/fixpermissions"
             />
     <Button
             android:layout_gravity="center"
             android:id="@+id/engage"
-            android:text="Engage"
+            android:text="@string/engage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
