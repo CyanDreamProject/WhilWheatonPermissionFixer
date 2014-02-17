@@ -4,4 +4,6 @@
     <string name="scienceproject">Let me show you my science project</string>
     <string name="fixpermissions">Fix Permissions?</string>
     <string name="engage">Engage</string>
+    <string name="successful">Mission Succesful</string>
+    <string name="airlock">Don\'t let the airlock door hit you on the way out.</string>
 </resources>

@@ -80,8 +80,8 @@ public class MyActivity extends Activity {
                             }
                         })
                         .setCancelable(false)
-                        .setTitle("Mission Successful")
-                        .setMessage("Don't let the airlock door hit you on the way out.")
+                        .setTitle(getString(R.string.successful))
+                        .setMessage(getString(R.string.airlock))
                         .create()
                         .show();
                     }
