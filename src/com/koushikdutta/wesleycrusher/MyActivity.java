@@ -6,6 +6,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageInfo;
+import android.view.MenuItem;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
@@ -94,12 +95,21 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         findViewById(R.id.engage).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 engage();
             }
         });
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

@@ -9,7 +9,7 @@
     <application
             android:label="@string/app_name"
             android:theme="@style/CCenterTheme"
-            android:icon="@drawable/ic_launcher">
+            android:icon="@android:drawable/ic_popup_sync">
         <activity
                 android:configChanges="orientation"
                 android:name="MyActivity"

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Rechte reparieren</string>
+    <string name="basedon">Basierend auf dem Whil Wheaton Permission Fixer von koush</string>
     <string name="scienceproject">Lass mich dir mein wissenschaftliches Projekt zeigen</string>
     <string name="fixpermissions">Rechte reparieren?</string>
     <string name="engage">Bitte!</string>

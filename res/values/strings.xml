@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WhilWheatonPermissionFixer</string>
+    <string name="app_name">Permission Fixer</string>
+    <string name="basedon">Based on Whil Wheaton Permission Fixer by koush</string>
     <string name="scienceproject">Let me show you my science project</string>
     <string name="fixpermissions">Fix Permissions?</string>
     <string name="engage">Engage</string>
-    <string name="successful">Mission Succesful</string>
+    <string name="successful">Mission Successful</string>
     <string name="airlock">Don\'t let the airlock door hit you on the way out.</string>
 </resources>
